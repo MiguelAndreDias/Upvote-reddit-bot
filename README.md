@@ -27,6 +27,6 @@ Create an Excel spreadsheet named reddit_passes.csv with columns username and pa
 
 Open bot.py and modify any relevant settings such as the post URL and XPath.
 
-Run the bot script:
+## Run the bot script:
 
 python upvote_bot.py
