@@ -18,8 +18,9 @@ A Python bot that automates upvoting of comments and posts on Reddit. The bot us
 
 Install the required Python packages using pip:
 
+```
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
