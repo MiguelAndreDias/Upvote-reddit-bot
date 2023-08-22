@@ -108,35 +108,3 @@ credenciais()
 
 
 
-
-
-#%%
-
-"""
-######################OVERALL GOAL######################
-##To Teach you how to log into a Legacy System (on IE)##
-
-##################### Pseudo Code ######################
-################open oldReddit - https://old.reddit.com/
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from time import sleep
-import clipboard
-
-website1 = "https://10minutemail.net/"
-website2 = "https://old.reddit.com/"
-
-driver = webdriver.Chrome("C:\\Webdrivers\\chromedriver.exe")
-driver.get(website1)
-
-cena = driver.find_element_by_xpath('//*[@id="fe_text"]')
-cena.click()
-cena.send_keys(Keys.CONTROL, 'a') #highlight all in box
-cena.send_keys(Keys.CONTROL, 'c') #copy
-
-lista = []
-text = clipboard.paste()  # text will have the content of clipboard
-lista.append(text)
-
-"""
